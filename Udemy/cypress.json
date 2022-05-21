@@ -1,0 +1,12 @@
+{"defaultCommandTimeout":6000,
+"reporter":"mochawesome",
+"env":{
+"url":"https://rahulshettyacademy.com"
+
+},
+"retries":{
+    "runMode":1
+}
+
+
+}

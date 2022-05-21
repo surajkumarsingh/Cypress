@@ -1,0 +1,19 @@
+{
+  "name": "Demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "openDashBoard": "node_modules\\.bin\\cypress open",
+    "test": "node_modules\\.bin\\cypress run",
+    "TestReport":"npm run test -- --spec  \"cypress/integration/AllActions.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.7.0",
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^7.1.3"
+  }
+}
