@@ -1,8 +1,8 @@
-# Cypress
+# Cypress Demo Projects
 
-# npm install to install Project
+* npm install (install Project dependencies)
 
-# Create New Project
-# 1. npm init
-# 2. npm -i cypress --save-Dev
-# 3. npm cypress open (will create deafult FrameWork)
+* Create New Project
+ 1. npm init
+ 2. npm -i cypress --save-Dev
+ 3. npm cypress open (will create deafult FrameWork)
