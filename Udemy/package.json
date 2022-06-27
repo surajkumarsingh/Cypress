@@ -6,7 +6,7 @@
   "scripts": {
     "openDashBoard": "node_modules\\.bin\\cypress open",
     "test": "node_modules\\.bin\\cypress run",
-    "TestReport":"npm run test -- --spec  \"cypress/integration/AllActions.js\""
+    "TestReport": "npm run test -- --spec  \"cypress/integration/AllActions.js\""
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,9 @@
     "cypress": "^7.7.0",
     "cypress-iframe": "^1.0.1",
     "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^1.6.2"
   }
 }

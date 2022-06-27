@@ -3,9 +3,9 @@
 import 'cypress-iframe'
 describe('All Actions', () => {
 
-beforeEach('Open Website',()=>{
-	cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
-});
+// beforeEach('Open Website',()=>{
+// 	cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
+// });
 
   // it('Check Boxs', () => {
   // 	cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
@@ -102,10 +102,17 @@ beforeEach('Open Website',()=>{
   //   cy.url().should('include', 'top');
   // });
   
-  it('iframe', () => {
-    cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
-    cy.frameLoaded('#courses-iframe');
-    cy.screenshot();
-    cy.iframe().find('.header-upper li a:nth-child(1)').eq(2).click();   
+  // it('iframe', () => {
+  //   cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
+  //   cy.frameLoaded('#courses-iframe');
+  //   cy.screenshot();
+  //   cy.iframe().find('.header-upper li a:nth-child(1)').eq(2).click();   
+  // });
+
+  it('upload File', () => {
+    //INFO: I have insatll dependency and import in command.js, file shold be in fixtures
+    cy.visit('https://tus.io/demo.html')
+    cy.get("input[type='file']").attachFile('cimpressLogo.jpg');
+       
   });
 });
