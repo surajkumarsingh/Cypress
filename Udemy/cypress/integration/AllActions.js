@@ -102,7 +102,7 @@ describe('All Actions', () => {
   //   cy.url().should('include', 'top');
   // });
   
-  // it('iframe', () => {
+  // it('iframe***not work if frame has nested frame', () => {
   //   cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
   //   cy.frameLoaded('#courses-iframe');
   //   cy.screenshot();

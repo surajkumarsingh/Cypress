@@ -6,7 +6,8 @@
 },
 "retries":{
     "runMode":1
-}
+},
 
-
+"viewportWidth": 1500,
+  "viewportHeight": 1060
 }
